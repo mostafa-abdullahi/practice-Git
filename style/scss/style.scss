@@ -5,3 +5,8 @@ body{
     color: $secondaryClr;
     background-color: $bgClr;
 }
+.header-top{
+    h1{
+        @include textStyle($secondaryClr, 3rem, bold);
+    }
+}
