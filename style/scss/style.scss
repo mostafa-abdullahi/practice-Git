@@ -4,9 +4,41 @@
 body{
     color: $secondaryClr;
     background-color: $bgClr;
+    margin: 0px;
+}
+.bgclr{
+    background-color: $primaryClr;
+    width: 100%;
+}
+.container-header{
+    @include containerHeader;
 }
 .header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     h1{
         @include textStyle($secondaryClr, 3rem, bold);
+    }
+}
+.navbar-top{
+    display: flex;
+    ul{
+        display: flex;
+        flex-direction: row;
+
+        @include ulStyle;
+
+            a{
+                margin: 5px;
+                transition: all .25s ease-in-out;
+
+                &:hover{
+                    background-color: $textClr;
+                }
+                @include hrefStyle;
+                @include border-href;
+            }
     }
 }
