@@ -1,0 +1,5 @@
+در گیت (repository) نحوه ساخت.png
+node_modules
+package-lock.json
+
+# نحوه خارج یا خاموش کردن پکیج های اضافی از درخت برنچ
