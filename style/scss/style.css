@@ -60,6 +60,18 @@ body {
   background-color: #111;
 }
 
+.footer-link ul {
+  list-style-type: none;
+}
+.footer-link ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  background-color: #57C9E9;
+  border-radius: 15px;
+  padding: 10px;
+}
+
 @media (max-width: 768px) {
   .header-top .hamburger-menu {
     display: flex;

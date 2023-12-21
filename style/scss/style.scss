@@ -56,6 +56,19 @@ body{
             }
     }
 }
+.footer-link{
+    ul{
+        @include ulStyle;
+
+        li{
+
+            a{
+                @include hrefStyle;
+                @include border-href;
+            }
+        }
+    }
+}
 
 
 
